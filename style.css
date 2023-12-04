@@ -1,0 +1,18 @@
+body{
+    padding: 5rem;
+}
+
+.minfun{
+    background-color: green;
+    height: 200px; 
+    width: min(300px,50%);
+}
+.maxfun{
+    background-color: yellow;
+    height: 200px;  
+    width: max(300px,75%);
+}
+
+.name-header{
+    font-size: clamp(1.5rem, 75vw, 5rem)!important;
+}
